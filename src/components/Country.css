@@ -1,0 +1,53 @@
+.cards {
+  padding-top: 48px;
+  max-width: 1280px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 6px;
+  width: 264px;
+  height: 336px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.flag {
+  border-radius: 6px 6px 0 0;
+  margin: 0;
+  padding: 0;
+  width: 264px;
+  height: 160px;
+  object-fit: cover !important;
+}
+
+.name {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.about {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  padding-right: 10px;
+}
+
+.text {
+  margin: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text div {
+  display: flex;
+  align-items: center;
+}
